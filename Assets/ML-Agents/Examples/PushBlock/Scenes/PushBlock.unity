@@ -1548,6 +1548,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114306175693660464, guid: 03bcc81e249714a22bb411dddcc5d15e, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 5022602860645237092, guid: 036616515d42e21428d4acfb3843aa84, type: 3}
+    - target: {fileID: 114306175693660464, guid: 03bcc81e249714a22bb411dddcc5d15e, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114505490781873732, guid: 03bcc81e249714a22bb411dddcc5d15e, type: 3}
+      propertyPath: MaxStep
+      value: 10000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03bcc81e249714a22bb411dddcc5d15e, type: 3}
 --- !u!1001 &1488759065
@@ -1679,11 +1691,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravityMultiplier: 2.5
-  monitorVerticalOffset: 0
   fixedDeltaTime: 0.02
   maximumDeltaTime: 0.33333334
   solverIterations: 6
   solverVelocityIterations: 1
+  reuseCollisionCallbacks: 1
 --- !u!4 &1574236049
 Transform:
   m_ObjectHideFlags: 0
